@@ -1,9 +1,11 @@
+package src;
+
 public class Navio extends Veiculo {
 
         double lotacaoMaxima;
         String combustivel;
 
-    public Navio(String nome, double velocidadeMaxima, String terreno, double lotacaoMaxima, String combustivel) {
+    public Navio (String nome, double velocidadeMaxima, String terreno, double lotacaoMaxima, String combustivel) {
         super(nome, velocidadeMaxima, terreno);
         this.lotacaoMaxima = lotacaoMaxima;
         this.combustivel = combustivel;

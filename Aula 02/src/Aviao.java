@@ -1,3 +1,5 @@
+package src;
+
 public class Aviao extends Veiculo  {
 
         String nome;

@@ -1,3 +1,5 @@
+package src;
+
 public class Caminhao extends Veiculo {
 
         String nome;

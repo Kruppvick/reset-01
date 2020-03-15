@@ -1,3 +1,5 @@
+package src;
+
 public class Submarino extends Veiculo {
 
     double lotacaoMaxima;
