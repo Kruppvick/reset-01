@@ -1,16 +1,15 @@
-package src;
+import src.Veiculo;
 
-public class Aviao extends Veiculo  {
+public class Aviao extends Veiculo {
 
-        String nome;
-        double lotacaoMaxima;
-        double combustivel;
-        double numeroDeRodas;
-        double altitudeMaxima;
+    String nome;
+    double lotacaoMaxima;
+    String combustivel;
+    double numeroDeRodas;
+    double altitudeMaxima;
 
-    public Aviao(String nome, double velocidadeMaxima, String terreno, String nome1, double lotacaoMaxima, double combustivel, double numeroDeRodas, double altitudeMaxima) {
+    public Aviao(String nome, double velocidadeMaxima, String terreno, double lotacaoMaxima, String combustivel, double numeroDeRodas, double altitudeMaxima) {
         super(nome, velocidadeMaxima, terreno);
-        this.nome = nome1;
         this.lotacaoMaxima = lotacaoMaxima;
         this.combustivel = combustivel;
         this.numeroDeRodas = numeroDeRodas;
@@ -22,12 +21,10 @@ public class Aviao extends Veiculo  {
         return "Aviao{" +
                 "nome='" + nome + '\'' +
                 ", lotacaoMaxima=" + lotacaoMaxima +
-                ", combustivel=" + combustivel +
+                ", combustivel='" + combustivel + '\'' +
                 ", numeroDeRodas=" + numeroDeRodas +
                 ", altitudeMaxima=" + altitudeMaxima +
-                ", nome='" + nome + '\'' +
-                ", velocidadeMaxima=" + velocidadeMaxima +
-                ", terreno='" + terreno + '\'' +
                 '}';
     }
 }
+

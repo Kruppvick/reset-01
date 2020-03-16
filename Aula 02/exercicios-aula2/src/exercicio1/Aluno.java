@@ -6,5 +6,9 @@ public class Aluno {
    private Turma turma;
    private double mediaFinal;
 
-   public Aluno(String nome, )
+   public Aluno(String nome, Turma turma, double mediaFinal) {
+      this.nome = nome;
+      this.turma = turma;
+      this.mediaFinal = mediaFinal;
+   }
 }
