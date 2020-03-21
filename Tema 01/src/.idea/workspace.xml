@@ -1,7 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85a7ac6c-2042-431e-81cd-c820d797a8c2" name="Default Changelist" comment="" />
+    <list default="true" id="85a7ac6c-2042-431e-81cd-c820d797a8c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/Aula parte manhã.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Arma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Barbaro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Clerigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Druida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Feiticeiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Guerreiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Magia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/Mago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula parte manhã/src/PoderDivino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula-02 - Acesso, enum, Collection e Data e Hora.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Aula-02 - Condicionais e Orientação Objetos.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/out/production/Exercicio 02/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/out/production/Exercicio 02/Categoria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/out/production/Exercicio 02/Livro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicio 02/out/production/Exercicio 02/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/Exercicios de poliformismo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/src/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Exercicios de poliformismo/src/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/Modificadores de Acesso.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/src/acesso/solucao/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/src/acesso/solucao/aluno/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/src/acesso/solucao/especial/AlunoEspecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Modificadores de Acesso/src/acesso/solucao/turma/Turma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/heranca/Aviao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/heranca/Bicicleta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/heranca/Caminhao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/heranca/Carro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/heranca/Navio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/heranca/Submarino.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo as tarefas/production/TESTANDO/heranca/Veiculos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo o tema/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo o tema/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo o tema/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo o tema/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Refazendo o tema/Refazendo o tema.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/Utilizando os comandos.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicio4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicio4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicio4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicio4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicio4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/out/production/exercicios-aula2/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/out/production/exercicios-aula2/Mago.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/out/production/exercicios-aula2/exercicio1/Aluno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/exercicios-aula2/out/production/exercicios-aula2/exercicio1/Turma.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/src/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/src/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 02/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema 02/Refatorando o tema/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema 02/Refatorando o tema/Refatorando o tema.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema 02/Refatorando o tema/src/Arma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema 02/Refatorando o tema/src/Guerreiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema 02/Refatorando o tema/src/HomemArma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema 02/Refatorando o tema/src/Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema 02/src/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/Combate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Combate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/src/Mago.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/src/Mago.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Combate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Magia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Magia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PoderDivino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PoderDivino.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +105,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1Z2wOrp0YJk9wPGr23eDICHIbOw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +117,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Combate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,29 +147,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1584132215015">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1584587386235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584132215015" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1584132215014">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584587386235" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1584587386235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584132215014" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1584132215014">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584587386235" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1584587386235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584132215014" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1584132215014">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584587386235" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1584587386235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584132215014" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584587386235" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1584187904399">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584187904399" />
-    <state x="65" y="0" key="new project wizard" timestamp="1584187930827">
+    <state x="65" y="0" key="new project wizard" timestamp="1584566816722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584187930827" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584566816722" />
   </component>
 </project>
