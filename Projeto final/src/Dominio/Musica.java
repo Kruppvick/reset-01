@@ -10,8 +10,7 @@ public class Musica {
     private EstiloMusical estiloMusical;
     private LocalDate lancamento;
 
-    public Musica(int id, String nome, String artista, EstiloMusical estiloMusical, LocalDate lancamento) {
-        this.id = id;
+    public Musica(String nome, String artista, EstiloMusical estiloMusical, LocalDate lancamento) {
         this.nome = nome;
         this.artista = artista;
         this.estiloMusical = estiloMusical;
@@ -60,12 +59,10 @@ public class Musica {
 
     @Override
     public String toString() {
-        return "Musica{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", artista='" + artista + '\'' +
-                ", estiloMusical=" + estiloMusical +
-                ", lancamento=" + lancamento +
-                '}';
+        return "id= " + id +
+                "| Nome da música= " + nome +
+                "| Artista= " + artista  +
+                "| Estilo Musical= " + estiloMusical +
+                "| Lançamento=" + lancamento;
     }
 }

@@ -15,7 +15,16 @@ public class MusicaAcervo {
         musicas.add(musica);
         return musica;
     }
-    public List<Musica> listar (){
+    public Musica editar (Musica musicaParaEditar, Musica musicaAtualizada){
+
+        musicaParaEditar.setNome(musicaAtualizada.getNome());
+        musicaParaEditar.setArtista(musicaAtualizada.getArtista());
+        musicaParaEditar.setLancamento(musicaAtualizada.getLancamento());
+        musicaParaEditar.setEstiloMusical(musicaAtualizada.getEstiloMusical());
+
+        return musicaParaEditar;
+    }
+    public List<Musica> listar () {
         return musicas;
     }
 

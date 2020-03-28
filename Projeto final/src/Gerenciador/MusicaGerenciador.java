@@ -27,6 +27,16 @@ public class MusicaGerenciador {
         return acervo.salvar(musica);
     }
 
+    public Musica editar(int id, Musica musicaAtualizada) {
+        Musica musicaParaEditar = procurar(id);
+
+        if (musicaParaEditar == null) {
+            return null;
+        } else {
+            return acervo.editar(musicaParaEditar, musicaAtualizada);
+        }
+    }
+
     public List<Musica> listar() {
         return acervo.listar();
     }

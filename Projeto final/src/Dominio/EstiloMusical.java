@@ -7,9 +7,5 @@ public enum EstiloMusical {
     ROCK,
     INDIE,
     SERTANEJO,
-    METAL,
-    REGGAE,
-    BLUES,
-    CLASSICA;
-
+    METAL;
 }
