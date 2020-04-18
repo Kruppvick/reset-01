@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping
+@RequestMapping("/musica")
 
 public class MusicaRest {
 
-    private static int contador = 1;
+    private static int contador = +1;
 
     private static final List<Musica> musicas = new ArrayList<>();
 
@@ -21,7 +21,7 @@ public class MusicaRest {
         return musicas;
     }
 
-    @PostMapping
+    @PostMapping("salvar")
     public Musica salvar(@RequestBody Musica musica) {
 
         musica.setId(contador++);

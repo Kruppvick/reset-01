@@ -12,16 +12,26 @@ public class Usuario {
     private Genero genero;
     private LocalDate dataDeNascimento;
     private String bio;
-    private Double localizacao;
+    private Double latitude;
+    private Double longitude;
+    private String urlFoto;
 
-    public Usuario(String nome, String email, String telefone, Genero genero , LocalDate dataDeNascimento, String bio, Double localizacao) {
+
+    public Usuario(int id, String nome, String email, String telefone, Genero genero, LocalDate dataDeNascimento, String bio, Double latitude, Double longitude, String urlFoto) {
+        this.id = id;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
         this.genero = genero;
         this.dataDeNascimento = dataDeNascimento;
         this.bio = bio;
-        this.localizacao = localizacao;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.urlFoto = urlFoto;
+    }
+
+
+    public Usuario(String nome, String email, String telefone, Genero genero, LocalDate of, String bio, Double latitude, Double longitude, String urlFoto) {
     }
 
     public int getId() {
@@ -91,26 +101,43 @@ public class Usuario {
         this.bio = bio;
     }
 
-    public Double getLocalizacao() {
-        return localizacao;
+    public Double getLatitude() {
+        return latitude;
     }
 
-    public void setLocalizacao(Double localizacao) {
-        this.localizacao = localizacao;
+    public void setLatitude(Double latitude) {
+        this.latitude = latitude;
     }
 
+    public Double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(Double longitude) {
+        this.longitude = longitude;
+    }
+
+    public String getUrlFoto() {
+        return urlFoto;
+    }
+
+    public void setUrlFoto(String urlFoto) {
+        this.urlFoto = urlFoto;
+    }
 
     @Override
     public String toString() {
-        return "id=" + id +
-                "| Nome= " + nome +
-                "| E-mail= " + email +
-                "| Telefone= " + telefone +
-                "| Gênero= " + genero +
-                "| Data De Nascimento= " + dataDeNascimento +
-                "| Bio=" + bio +
-                "| Localizção=" + localizacao;
+        return "Usuario{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", genero=" + genero +
+                ", dataDeNascimento=" + dataDeNascimento +
+                ", bio='" + bio + '\'' +
+                ", latitude=" + latitude +
+                ", longitude=" + longitude +
+                ", urlFoto='" + urlFoto + '\'' +
+                '}';
     }
-
-
 }

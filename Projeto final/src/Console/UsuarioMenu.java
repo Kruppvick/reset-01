@@ -61,6 +61,10 @@ public class UsuarioMenu {
     }
 
     public Usuario criar() {
+
+        Double latitude = 0.0;
+        Double longitude = 0.0;
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nAdicionando usuário nos cadastros");
 
@@ -82,17 +86,25 @@ public class UsuarioMenu {
         System.out.println("Dia de nascimento: ");
         int dia = scanner.nextInt();
 
+        System.out.println("Bio: ");
+        String bio = scanner.nextLine();
+
+        System.out.println("Insira sua localização geográfica- Latitude: ");
+        latitude = scanner.nextDouble();
+
+        System.out.println("Longitude: ");
+        longitude = scanner.nextDouble();
+
+        System.out.println("Foto: ");
+        String urlFoto = scanner.nextLine();
+
         System.out.println("Gênero: ");
         System.out.println("[ F ] FEMININO ");
         System.out.println("[ M ] MASCULINO ");
         System.out.print(">>>");
         String sexo = scanner.next();
 
-        System.out.println("Bio: ");
-        String bio = scanner.nextLine();
 
-        System.out.println("Localização: ");
-        Double localizacao = scanner.nextDouble();
 
         Genero genero;
 
@@ -109,12 +121,14 @@ public class UsuarioMenu {
         }
         Usuario usuario;
 
-        usuario = new Usuario(nome, email, telefone, genero, LocalDate.of(ano, mes, dia), bio, localizacao);
+        usuario = new Usuario(nome, email, telefone, genero, LocalDate.of(ano, mes, dia), bio, latitude, longitude, urlFoto);
         return gerenciador.salvar(usuario);
     }
 
     public Usuario editar() {
 
+        Double latitude = 0.0;
+        Double longitude = 0.0;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nEditar Usuário");
@@ -144,14 +158,20 @@ public class UsuarioMenu {
         System.out.println("Mês de nascimento: ");
         int mes = scanner.nextInt();
 
+        System.out.println("Dia de nascimento: ");
+        int dia = scanner.nextInt();
+
         System.out.println("Bio: ");
         String bio = scanner.nextLine();
 
-        System.out.println("Localização: ");
-        Double localizacao = scanner.nextDouble();
+        System.out.print("Insira sua localização geográfica- Latitude: ");
+        latitude = scanner.nextDouble();
 
-        System.out.println("Dia de nascimento: ");
-        int dia = scanner.nextInt();
+        System.out.print("Longitude: ");
+        longitude = scanner.nextDouble();
+
+        System.out.print("Foto: ");
+        String urlFoto = scanner.nextLine();
 
         System.out.println("Gênero: ");
         System.out.println("[ F ] FEMININO ");
@@ -174,7 +194,7 @@ public class UsuarioMenu {
                 break;
         }
 
-        Usuario atualizacao = new Usuario(nome, email, telefone, genero, LocalDate.of(ano, mes, dia), bio, localizacao);
+        Usuario atualizacao = new Usuario(nome, email, telefone, genero, LocalDate.of(ano, mes, dia), bio, latitude, longitude, urlFoto);
         Usuario usuarioAtualizado = gerenciador.editar(id, atualizacao);
 
         if (usuarioAtualizado == null) {

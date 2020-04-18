@@ -26,7 +26,9 @@ public class UsuarioAcervo {
         usuarioParaEditar.setGenero(usuarioAtualizado.getGenero());
         usuarioParaEditar.setDataDeNascimento(usuarioAtualizado.getDataDeNascimento());
         usuarioParaEditar.setBio(usuarioAtualizado.getBio());
-        usuarioParaEditar.setLocalizacao(usuarioAtualizado.getLocalizacao());
+        usuarioParaEditar.setLatitude(usuarioAtualizado.getLatitude());
+        usuarioParaEditar.setLongitude(usuarioAtualizado.getLongitude());
+        usuarioParaEditar.setUrlFoto(usuarioAtualizado.getUrlFoto());
 
 
         return usuarioParaEditar;
