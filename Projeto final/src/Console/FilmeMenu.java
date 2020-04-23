@@ -221,7 +221,7 @@ public class FilmeMenu {
         Filme filme = gerenciador.procurar(id);
 
         if (filme == null) {
-            System.out.println("Filme não encontrada");
+            System.out.println("Filme não encontrado");
         } else {
             System.out.println(filme);
         }
@@ -232,8 +232,8 @@ public class FilmeMenu {
         System.out.println("\nExclusão de filme");
         System.out.println("Qual filme deseja deletar?");
 
-        List<Filme> musicas = gerenciador.listar();
-        for (Filme filme : musicas) {
+        List<Filme> filmes = gerenciador.listar();
+        for (Filme filme : filmes) {
             System.out.println("[" + filme.getId() + "] - " + filme.getNome());
         }
 
