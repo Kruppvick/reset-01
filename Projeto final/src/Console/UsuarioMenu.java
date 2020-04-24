@@ -89,7 +89,7 @@ public class UsuarioMenu {
         System.out.println("Bio: ");
         String bio = scanner.nextLine();
 
-        System.out.println("Insira sua localização geográfica- Latitude: ");
+        System.out.println("Insira a localização geográfica - Latitude: ");
         latitude = scanner.nextDouble();
 
         System.out.println("Longitude: ");

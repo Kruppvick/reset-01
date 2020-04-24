@@ -9,7 +9,7 @@ import java.util.List;
 
 public class UsuarioAcervo {
 
-    private static int contador = 1;
+    private static int contador = +1;
     private static final List<Usuario> usuarios = new ArrayList<>();
 
     public Usuario salvar (Usuario usuario){
