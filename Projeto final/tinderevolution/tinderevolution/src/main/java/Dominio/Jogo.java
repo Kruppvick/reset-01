@@ -67,5 +67,15 @@ public class Jogo {
         this.plataformaJogo = plataformaJogo;
     }
 
-
+    @Override
+    public String toString() {
+        return "Jogo{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", dataLancamento=" + dataLancamento +
+                ", estilodeJogo=" + estilodeJogo +
+                ", plataformaJogo=" + plataformaJogo +
+                '}';
+    }
 }

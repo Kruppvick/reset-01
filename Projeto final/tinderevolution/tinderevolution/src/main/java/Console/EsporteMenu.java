@@ -60,7 +60,7 @@ public class EsporteMenu {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nAdicionando uma modalidade de esporte no acervo");
 
-        System.out.println("Nome: ");
+        System.out.print("Nome: ");
         String nome = scanner.nextLine();
 
         Esporte esporte = new Esporte(nome);

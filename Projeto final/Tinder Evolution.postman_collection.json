@@ -153,7 +153,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t \"nome\": \"Dengo\",\n  \"artista\": \"Anavitoria\",\n  \"lancamento\": \"2019-01-10\",\n  \"estiloMusical\": \"INDIE\"\n}",
+							"raw": "{\n\t \"nome\": \"Dengo\",\n  \"artista\": \"Anavitoria\",\n  \"estiloMusical\": \"INDIE\",\n  \"lancamento\": \"2019-01-10\"\n \n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -161,7 +161,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/musica/",
+							"raw": "http://localhost:8080/musica/salvar",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -169,7 +169,7 @@
 							"port": "8080",
 							"path": [
 								"musica",
-								""
+								"salvar"
 							]
 						}
 					},
@@ -268,7 +268,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\n  \"nome\": \"Fight Club\",\n  \"diretor\": \"David Fincher\",\n  \"sinopse\": \"Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden e se vê morando em uma casa suja depois que seu perfeito apartamento é destruído. A dupla forma um clube com regras rígidas onde homens lutam. A parceria perfeita é comprometida quando uma mulher, Marla, atrai a atenção de Tyler.\",\n  \"lancamento\": \"1999-09-10\",\n  \"categoria\": \"DRAMA\"\n\n}",
+							"raw": "{\n\t\n  \"nome\": \"A última música\",\n  \"diretor\": \"Julie Anne Robinson\",\n  \"lancamento\": \"2010-06-11\",\n  \"estilodeFilme\": \"DRAMA\",\n  \"sinopse\": \"A adolescente Ronnie não fica nada satisfeita quando a mãe decide enviá-la a uma cidade litorânea para passar o verão com o pai, que não vê há anos. Enquanto ele tenta usar o amor que os dois compartilham pela música para se reconectar com a filha, Ronnie se apaixona por um rapaz local.\"\n\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -276,7 +276,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/filme/",
+							"raw": "http://localhost:8080/filme/salvar",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -284,7 +284,7 @@
 							"port": "8080",
 							"path": [
 								"filme",
-								""
+								"salvar"
 							]
 						}
 					},
@@ -365,7 +365,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nome\": \"Brooklyn Nine-Nine\",\r\n  \"diretor\": \"Fremulon\",\r\n  \"sinopse\": \"Ambientada na 99ª Delegacia de Polícia de Nova York, no Brooklyn, a série acompanha as maluquices do imaturo detetive Jake Peralta e a relação que ele tem com o novo capitão, Ray Holt.\",\r\n  \"lancamento\": \"2013-09-17\",\r\n  \"categoria\": \"COMEDIA\"\r\n}",
+							"raw": "{\r\n\t\r\n  \"nome\": \"Designated Survivor\",\r\n  \"diretor\": \"Richard Klein Ann Kindberg\",\r\n  \"lancamento\": \"2016-09-21\",\r\n  \"numeroDeTemporadas\": \"3\",\r\n  \"numeroDeEpisodios\": \"53\",\r\n  \"estiloDeSerie\": \"ACAO\",\r\n  \"sinopse\": \"Tom Kirkman (Kiefer Sutherland) é um membro do gabinete que inesperadamente se torna presidente depois de um ataque devastador em Washington. Ele precisa lutar para proteger o país e sua própria família de novos ataques, enquanto é encarregado de assumir uma das presidências mais difíceis da história.\"\r\n  \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -373,7 +373,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/serie/",
+							"raw": "http://localhost:8080/serie/salvar",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -381,7 +381,7 @@
 							"port": "8080",
 							"path": [
 								"serie",
-								""
+								"salvar"
 							]
 						}
 					},
@@ -480,7 +480,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": " {\r\n \t\"nome\": \"Killer Instinct\",\r\n  \"publisher\": \"Rareware\",\r\n  \"lancamento\": \"1995-08-30\",\r\n  \"categoria\": \"LUTA\",\r\n  \"platafora\": \"SNES\"\r\n }",
+							"raw": " {\r\n \t\"nome\": \"Mario Bros\",\r\n  \"publisher\": \"Nintendo\",\r\n  \"dataLancamento\": \"1991-08-30\",\r\n  \"estilodeJogo\": \"ACAO\",\r\n  \"plataformaJogo\": \"PC\"\r\n }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -488,15 +488,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/serie/",
+							"raw": "http://localhost:8080/jogo/salvar",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"serie",
-								""
+								"jogo",
+								"salvar"
 							]
 						}
 					},
@@ -683,7 +683,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nome\": \"Vegan\",\r\n  \"categoria\": \"ALIMENTACAO\"\r\n}",
+							"raw": "{\r\n  \"descricao\": \"Gosto de cozinhar\",\r\n  \"estilodeCuriosidade\": \"ALIMENTACAO\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -691,7 +691,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/curiosidade/",
+							"raw": "http://localhost:8080/curiosidade/salvar",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -699,7 +699,7 @@
 							"port": "8080",
 							"path": [
 								"curiosidade",
-								""
+								"salvar"
 							]
 						}
 					},

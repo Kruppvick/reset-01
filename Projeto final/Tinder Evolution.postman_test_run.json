@@ -1,0 +1,44 @@
+{
+	"id": "6e33511f-114d-426e-91e0-ad800ee31a70",
+	"name": "Tinder Evolution",
+	"timestamp": "2020-04-25T19:28:13.326Z",
+	"collection_id": "8c4da7aa-9ee7-494e-a94f-ecd49f25587a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d756c0b1-9e92-4bae-a8f9-e7cdb295b9c2",
+			"name": "Listar",
+			"url": "http://localhost:8080/usuario",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				17
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 17,
+	"collection": {
+		"requests": [
+			{
+				"id": "d756c0b1-9e92-4bae-a8f9-e7cdb295b9c2",
+				"method": "GET"
+			},
+			{
+				"id": "955a6b4e-748f-4895-b3b7-8fb86bb592b1",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -5,7 +5,7 @@ public class Esporte {
     private String nome;
 
     public Esporte(String nome) {
-        this.id = id;
+
         this.nome = nome;
     }
 
