@@ -14,11 +14,16 @@ public class FilmeGerenciador {
     public Filme salvar(Filme filme){
 
         List<Filme> filmes = acervo.listar();
+        //Campos obrigatórios
+        if (filme.getNome().isEmpty() || filme.getDiretor().isEmpty() || filme.getEstilodeFilme() == null || filme.getSinopse().isEmpty() || filme.getLancamento() == null){
+          throw new RuntimeException("Obrigatório o preenchimento de todos os campos");
+        }
 
 
         for (Filme filmeExistente : filmes) {
             if (filme.getNome().equals(filmeExistente.getNome())) {
                 return filmeExistente;
+
             }
         }
 

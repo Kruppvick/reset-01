@@ -2,13 +2,12 @@ package Acervo;
 
 import Dominio.Jogo;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class JogoAcervo {
 
-    private static int contador = 1;
+    private static int contador = +1;
     private static final List<Jogo> jogos = new ArrayList<>();
 
     public Jogo salvar(Jogo jogo){

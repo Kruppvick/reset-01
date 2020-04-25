@@ -4,8 +4,6 @@ import Dominio.EstiloMusical;
 import Dominio.Musica;
 import Gerenciador.MusicaGerenciador;
 
-import java.awt.*;
-import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Scanner;

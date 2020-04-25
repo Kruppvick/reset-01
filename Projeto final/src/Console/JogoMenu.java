@@ -1,10 +1,12 @@
 package Console;
 
-import Dominio.*;
-import Gerenciador.FilmeGerenciador;
+import Dominio.EstilodeJogo;
+import Dominio.Jogo;
+import Dominio.PlataformaJogo;
 import Gerenciador.JogoGerenciador;
 
 import java.time.LocalDate;
+
 import java.util.List;
 import java.util.Scanner;
 

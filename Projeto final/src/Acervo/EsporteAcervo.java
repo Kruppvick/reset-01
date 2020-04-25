@@ -7,7 +7,7 @@ import java.util.List;
 
 public class EsporteAcervo {
 
-    private static int contador = 1;
+    private static int contador = +1;
     private static final List<Esporte> esportes = new ArrayList<>();
 
     public Esporte salvar (Esporte esporte){

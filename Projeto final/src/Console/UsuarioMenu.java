@@ -65,46 +65,45 @@ public class UsuarioMenu {
         Double latitude = 0.0;
         Double longitude = 0.0;
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scannerint = new Scanner(System.in);
+        Scanner scannerln = new Scanner(System.in);
         System.out.println("\nAdicionando usuário nos cadastros");
 
         System.out.println("Nome: ");
-        String nome = scanner.nextLine();
+        String nome = scannerln.nextLine();
 
         System.out.println("E-mail: ");
-        String email = scanner.nextLine();
+        String email = scannerln.nextLine();
 
         System.out.println("Telefone: ");
-        String telefone = scanner.nextLine();
+        String telefone = scannerln.nextLine();
 
         System.out.println("Ano de nascimento:");
-        int ano = scanner.nextInt();
+        int ano = scannerint.nextInt();
 
         System.out.println("Mês de nascimento: ");
-        int mes = scanner.nextInt();
+        int mes = scannerint.nextInt();
 
         System.out.println("Dia de nascimento: ");
-        int dia = scanner.nextInt();
+        int dia = scannerint.nextInt();
 
         System.out.println("Bio: ");
-        String bio = scanner.nextLine();
+        String bio = scannerln.nextLine();
 
         System.out.println("Insira a localização geográfica - Latitude: ");
-        latitude = scanner.nextDouble();
+        latitude = scannerint.nextDouble();
 
         System.out.println("Longitude: ");
-        longitude = scanner.nextDouble();
+        longitude = scannerint.nextDouble();
 
         System.out.println("Foto: ");
-        String urlFoto = scanner.nextLine();
+        String urlFoto = scannerln.nextLine();
 
         System.out.println("Gênero: ");
         System.out.println("[ F ] FEMININO ");
         System.out.println("[ M ] MASCULINO ");
         System.out.print(">>>");
-        String sexo = scanner.next();
-
-
+        String sexo = scannerln.next();
 
         Genero genero;
 

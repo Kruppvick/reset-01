@@ -2,10 +2,8 @@ package Console;
 
 import Dominio.Curiosidade;
 import Dominio.EstilodeCuriosidade;
-import Dominio.EstilodeFilme;
-import Dominio.Filme;
 import Gerenciador.CuriosidadeGerenciador;
-import Gerenciador.FilmeGerenciador;
+
 
 import java.util.List;
 import java.util.Scanner;

@@ -1,7 +1,5 @@
 package Acervo;
 
-
-
 import Dominio.Usuario;
 
 import java.util.ArrayList;

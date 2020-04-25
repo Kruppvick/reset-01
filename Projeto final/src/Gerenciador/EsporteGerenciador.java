@@ -1,11 +1,7 @@
 package Gerenciador;
 
 import Acervo.EsporteAcervo;
-import Acervo.FilmeAcervo;
 import Dominio.Esporte;
-import Dominio.Filme;
-
-import java.time.LocalDate;
 import java.util.List;
 
 public class EsporteGerenciador {
@@ -15,6 +11,10 @@ public class EsporteGerenciador {
     public Esporte salvar(Esporte esporte){
 
         List<Esporte> esportes = acervo.listar();
+
+        if (esporte.getNome().isEmpty()){
+            throw new RuntimeException("Obrigatório o preenchimento de todos os campos");
+        }
 
 
         for (Esporte esporteExistente : esportes) {

@@ -14,6 +14,9 @@ public class CuriosidadeGerenciador {
     public Curiosidade salvar(Curiosidade curiosidade){
 
         List<Curiosidade> curiosidades = acervo.listar();
+        if (curiosidade.getDescricao().isEmpty() || curiosidade.getEstilodeCuriosidade() == null){
+            throw new RuntimeException("Obrigatório o preenchimento de todos os campos");
+        }
 
 
         for (Curiosidade curiosidadeExistente : curiosidades) {

@@ -14,6 +14,9 @@ public class JogoGerenciador {
     public Jogo salvar(Jogo jogo){
 
         List<Jogo> jogos = acervo.listar();
+        if (jogo.getNome().isEmpty() || jogo.getDataLancamento() == null || jogo.getEstilodeJogo() == null || jogo.getPlataformaJogo() == null){
+           throw new RuntimeException("Obrigatório o preenchimento de todos os campos");
+        }
 
 
         for (Jogo jogoExistente : jogos) {

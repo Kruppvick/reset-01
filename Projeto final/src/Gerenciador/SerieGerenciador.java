@@ -13,6 +13,10 @@ public class SerieGerenciador {
     public Serie salvar(Serie serie){
 
         List<Serie> series = acervo.listar();
+        if (serie.getNome().isEmpty() || serie.getDiretor().isEmpty() || serie.getLancamento() ==null || serie.getNumeroDeTemporadas() ==0 || serie.getNumeroDeEpisodios() == 0 || serie.getEstiloDeSerie() == null || serie.getSinopse().isEmpty()){
+            throw new RuntimeException("Obrigatório o preenchimento de todos os campos");
+
+        }
 
 
         for (Serie serieExistente : series) {

@@ -13,7 +13,10 @@ public class MusicaGerenciador {
     public Musica salvar(Musica musica) {
 
         List<Musica> musicas = acervo.listar();
-
+        // Preenchimento obrigatório
+        if (musica.getNome().isEmpty() || musica.getArtista().isEmpty() || musica.getEstiloMusical() == null || musica.getLancamento() == null) {
+            throw new RuntimeException("Obrigatório o preenchimento de todos os campos");
+        }
         for (Musica musicaExistente : musicas) {
             if (musica.getNome().equals(musicaExistente.getNome())) {
                 return musicaExistente;
