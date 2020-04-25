@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MusicaAcervo {
-    private static int contador = 1;
+
+    private static int contador = +1;
     private static final List<Musica> musicas = new ArrayList<>();
 
     public Musica salvar(Musica musica){

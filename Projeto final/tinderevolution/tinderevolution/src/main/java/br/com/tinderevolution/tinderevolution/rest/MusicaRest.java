@@ -1,6 +1,7 @@
 package br.com.tinderevolution.tinderevolution.rest;
 
 import Dominio.Musica;
+import Gerenciador.MusicaGerenciador;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -12,58 +13,39 @@ import java.util.List;
 public class MusicaRest {
 
     private static int contador = +1;
-
-    private static final List<Musica> musicas = new ArrayList<>();
+    private List<Musica> musicas = new ArrayList<>();
+    private MusicaGerenciador musicaGerenciador = new MusicaGerenciador();
 
 
     @GetMapping
     public List<Musica> listar() {
-        return musicas;
+        return musicaGerenciador.listar();
     }
 
     @PostMapping("salvar")
-    public Musica salvar(@RequestBody Musica musica) {
+    public Musica salvar(@RequestBody Musica requestBody) {
 
-        musica.setId(contador++);
-        musicas.add(musica);
-        return musica;
+        return musicaGerenciador.salvar(requestBody);
     }
 
     @PutMapping("/{id}")
-    public Musica editar (@PathVariable ("id") int id, @RequestBody Musica musicaAtualizada) {
-        Musica musicaParaAtualizar = procurar(id);
-
-        if (musicaParaAtualizar != null) {
-            musicaParaAtualizar.setNome(musicaAtualizada.getNome());
-            musicaParaAtualizar.setArtista(musicaAtualizada.getArtista());
-            musicaParaAtualizar.setLancamento(musicaAtualizada.getLancamento());
-            musicaParaAtualizar.setEstiloMusical(musicaAtualizada.getEstiloMusical());
-
-            return musicaParaAtualizar;
-        }
-        return null;
+    public Musica editar (@PathVariable ("id") int id, @RequestBody Musica requestBody) {
+        return musicaGerenciador.editar(id, requestBody);
     }
 
 
     @GetMapping("/{id}")
-    public Musica procurar(@PathVariable int id) {
-        for (Musica musica : musicas) {
-            if (musica.getId() == id) {
-                return musica;
+    public Musica procurar(@PathVariable ("id") int id) {
 
-            }
-        }
-        return null;
+                return musicaGerenciador.procurar(id);
+
     }
 
     @DeleteMapping("/{id}")
-    public boolean deletar(@PathVariable int id) {
+    public String deletar(@PathVariable ("id") int id) {
 
-        Musica musicaParaDeletar = procurar(id);
-        if (musicaParaDeletar != null) {
-            return musicas.remove(musicaParaDeletar);
-        }
-        return false;
+        musicaGerenciador.deletar(id);
+        return "Música excluída!";
     }
 
 
