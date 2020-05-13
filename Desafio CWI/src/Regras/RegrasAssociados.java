@@ -11,6 +11,10 @@ public class RegrasAssociados {
     public Associado cadastrar(Associado associado) {
         List<Associado> associados = acervo.listar();
 
+        // fazer depois as regras
+        // for (Associado associadoJaVotou : associados) {
+        //if (associado.getId().)
+
         return acervo.cadastrar(associado);
     }
 }

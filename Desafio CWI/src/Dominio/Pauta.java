@@ -15,6 +15,14 @@ public class Pauta {
         return nomeDaPauta;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public void setNomeDaPauta(String nomeDaPauta) {
         this.nomeDaPauta = nomeDaPauta;
     }

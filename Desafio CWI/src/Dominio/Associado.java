@@ -5,10 +5,6 @@ public class Associado {
     private int id;
     private String nome;
 
-    public Associado(int id) {
-        this.id = id;
-    }
-
     public int getId() {
         return id;
     }
@@ -17,10 +13,23 @@ public class Associado {
         this.id = id;
     }
 
+    public Associado(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     @Override
     public String toString() {
         return "Associado{" +
                 "id=" + id +
+                ", nome='" + nome + '\'' +
                 '}';
     }
 }

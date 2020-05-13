@@ -19,4 +19,13 @@ public class AcervoAssociado {
     public List<Associado> listar() {
         return associados;
     }
+
+    public Associado procurar (int id) {
+        for (Associado associado : associados){
+            if (associado.getId () == id){
+                return associado;
+            }
+        }
+        return null;
+    }
 }
