@@ -12,7 +12,7 @@ public class Sessao {
     private TipoDeVoto tipoDeVoto;
     private LocalDate dataAbertura;
     private LocalDate dataEncerramento;
-    private List<Integer> votosPauta = new ArrayList<>();
+    private List<Integer> votosRealizado = new ArrayList<>();
 
     public Sessao(Pauta pauta, StatusSessao statusSessao, TipoDeVoto tipoDeVoto, LocalDate dataAbertura, LocalDate dataEncerramento) {
         this.pauta = pauta;
@@ -70,12 +70,19 @@ public class Sessao {
         this.dataEncerramento = dataEncerramento;
     }
 
-    public List<Integer> getVotosPauta() {
-        return votosPauta;
+    public List<Integer> getVotosRealizado() {
+        return votosRealizado;
     }
 
-    public void setVotosPauta(List<Integer> votosPauta) {
-        this.votosPauta = votosPauta;
+    public void setVotosRealizado(List<Integer> votosRealizado) {
+        this.votosRealizado = votosRealizado;
+    }
+
+    public boolean votarPauta (int idPauta) {
+        if (!votosRealizado.contains(idPauta)) {
+        }
+        return votosRealizado.add(idPauta);
+
     }
 
     @Override

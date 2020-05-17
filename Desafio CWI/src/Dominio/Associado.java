@@ -1,9 +1,13 @@
 package Dominio;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Associado {
 
     private int id;
     private String nome;
+
 
     public int getId() {
         return id;
@@ -24,6 +28,7 @@ public class Associado {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
 
     @Override
     public String toString() {

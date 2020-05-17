@@ -3,6 +3,7 @@ package Console;
 import Dominio.Associado;
 import Regras.RegrasAssociados;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class AssociadoMenu {
@@ -19,12 +20,22 @@ public class AssociadoMenu {
 
             System.out.println("\nSelecione uma opção abaixo");
             System.out.println("[ C ] - Cadastrar associado ");
+            System.out.println("[ L ] - Listar associado");
+            System.out.println("[ P ] - Procurar associado");
             System.out.println("[ X ] - Voltar ao menu anterior ");
 
             opcao = scanner.next().charAt(0);
             switch (opcao) {
                 case 'C':
                     cadastrar();
+                    break;
+
+                case 'L':
+                    listar();
+                    break;
+
+                case 'P':
+                    procurar();
                     break;
 
                 case 'X':
@@ -43,6 +54,32 @@ public class AssociadoMenu {
 
         Associado associado = new Associado(nome);
         return regras.cadastrar(associado);
+    }
+
+    private List<Associado> listar() {
+        System.out.println("Listagem Associados");
+        List<Associado> associados = regras.listar();
+
+        for (Associado associado : associados){
+            System.out.println(associado);
+        }
+        return associados;
+
+    }
+
+    private void procurar(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Pesquisa de Associados");
+        System.out.println("Qual id do associado?");
+        int id= scanner.nextInt();
+
+        Associado associado = regras.procurar(id);
+
+        if (associado == null) {
+            System.out.println("Associado não encontrado");
+        } else {
+            System.out.println(associado);
+        }
     }
 
 }
