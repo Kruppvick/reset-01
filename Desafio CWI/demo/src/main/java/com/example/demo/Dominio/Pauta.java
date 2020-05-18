@@ -12,6 +12,7 @@ public class Pauta {
     private LocalDateTime dataLimite;
     private List<Voto> votosRealizado = new ArrayList<>();
 
+
     public Pauta(String nomeDaPauta, String descricao) {
         this.nomeDaPauta = nomeDaPauta;
         this.descricao = descricao;
@@ -92,9 +93,13 @@ public class Pauta {
     @Override
     public String toString() {
         return "Pauta{" +
-                "nomeDaPauta='" + nomeDaPauta + '\'' +
+                "id=" + id +
+                ", nomeDaPauta='" + nomeDaPauta + '\'' +
                 ", descricao='" + descricao + '\'' +
+                ", tempoVotacao=" + tempoVotacao +
+                ", dataLimite=" + dataLimite +
                 ", votosRealizado=" + votosRealizado +
                 '}';
     }
+
 }

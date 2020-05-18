@@ -5,6 +5,7 @@ public class Voto {
     private Integer idAssociado;
     private boolean voto;
 
+
     public Voto(Integer idAssociado, boolean voto) {
         this.idAssociado = idAssociado;
         this.voto = voto;
