@@ -1,11 +1,10 @@
-package Dominio;
+package com.example.demo.Dominio;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Pauta {
-
     private int id;
     private String nomeDaPauta;
     private String descricao;
@@ -99,5 +98,3 @@ public class Pauta {
                 '}';
     }
 }
-
-

@@ -1,7 +1,7 @@
-package Acervo;
+package com.example.demo.Acervo;
 
-import Dominio.Pauta;
 
+import com.example.demo.Dominio.Pauta;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,5 +28,4 @@ public class AcervoPauta {
         }
         return null;
     }
-
 }

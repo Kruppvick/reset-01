@@ -33,14 +33,4 @@ public class RegrasAssociados {
         return null;
     }
 
-   // CONFUSÃO NO CÓDIGO
-    // public  boolean votarPauta (int idPauta, int idAssociado){
-        //if (this.procurar(idPauta) != null ){
-          //  Associado associado = this.procurar(idAssociado);
-            //return associado.votarPauta(idPauta);
-      //  }
-        //return false;
-    //}
-
-
 }

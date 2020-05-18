@@ -25,6 +25,7 @@ public class PautaMenu {
             System.out.println("[ C ] - Cadastrar pauta");
             System.out.println("[ L ] - Listar pauta");
             System.out.println("[ P ] - Procurar");
+            System.out.println("[ V ] - Votar Pauta");
             System.out.println("[ X ] - Voltar ao menu anterior ");
 
             opcao = scanner.next().charAt(0);
@@ -42,6 +43,10 @@ public class PautaMenu {
                     procurar();
                     break;
 
+                case 'V':
+                    votar();
+                    break;
+
                 case 'X':
                     System.out.println("Voltar ao menu anterior");
                     break;
@@ -50,7 +55,6 @@ public class PautaMenu {
         }
     }
 
-    //REVER O MÉTODO CADASTRAR
 
     public Pauta cadastrar() {
         Scanner scanner = new Scanner(System.in);
@@ -87,6 +91,16 @@ public class PautaMenu {
         if (pauta == null) {
             System.out.println("Pauta não encontrada");
         } else {
+            System.out.println(pauta);
+        }
+    }
+
+    private void votar() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Escolha uma pauta para votar");
+        List<Pauta> pautas = regras.listar();
+
+        for (Pauta pauta : pautas) {
             System.out.println(pauta);
         }
     }

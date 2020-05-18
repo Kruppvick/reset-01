@@ -1,10 +1,17 @@
-package Dominio;
+package com.example.demo.Dominio;
+
+
+import com.example.demo.TO.AssociadoTO;
 
 public class Associado {
 
     private int id;
     private String nome;
 
+    public Associado(int id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
 
     public int getId() {
         return id;
@@ -24,6 +31,10 @@ public class Associado {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public static AssociadoTO toTO (Associado associado){
+        return new AssociadoTO(associado.getId(), associado.getNome());
     }
 
 

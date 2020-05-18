@@ -1,16 +1,18 @@
-package Regras;
+package com.example.demo.Regras;
 
-import Acervo.AcervoAssociado;
-import Acervo.AcervoPauta;
-import Dominio.Associado;
-import Dominio.Pauta;
-import Dominio.ResultadoSessao;
-import Dominio.Voto;
+import com.example.demo.Acervo.AcervoAssociado;
+import com.example.demo.Acervo.AcervoPauta;
+import com.example.demo.Dominio.Associado;
+import com.example.demo.Dominio.Pauta;
+import com.example.demo.Dominio.ResultadoSessao;
+import com.example.demo.Dominio.Voto;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+
 public class RegrasPautas {
+
     private AcervoPauta acervoPauta = new AcervoPauta();
     private AcervoAssociado acervoAssociado = new AcervoAssociado();
 
